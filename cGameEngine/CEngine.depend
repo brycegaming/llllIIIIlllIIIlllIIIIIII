@@ -1,0 +1,429 @@
+# depslib dependency file v1.0
+1523508656 source:c:\users\bryce\desktop\cengine\bmploader.c
+	"include/BMPLoader.h"
+	<stdio.h>
+	"include/defs.h"
+
+1523508657 c:\users\bryce\desktop\cengine\include\bmploader.h
+	"defs.h"
+	"Color.h"
+
+1523512525 c:\users\bryce\desktop\cengine\include\defs.h
+	<stdint.h>
+	<stdlib.h>
+	<time.h>
+	<stdarg.h>
+	<stdio.h>
+	<windows.h>
+	<curses.h>
+	<time.h>
+	<pthread.h>
+	<ncurses.h>
+	<unistd.h>
+
+1523511060 c:\users\bryce\desktop\pdcurs34\curses.h
+	<stdarg.h>
+	<stddef.h>
+	<stdio.h>
+	<wchar.h>
+
+1523508657 c:\users\bryce\desktop\cengine\include\color.h
+	"defs.h"
+
+1523508656 source:c:\users\bryce\desktop\cengine\color.c
+	"include/Color.h"
+	<stdio.h>
+	<string.h>
+
+1523508656 source:c:\users\bryce\desktop\cengine\defs.c
+	"include/defs.h"
+	"include/GenericSet.h"
+
+1523508657 c:\users\bryce\desktop\cengine\include\genericset.h
+	"defs.h"
+	<string.h>
+
+1523508656 source:c:\users\bryce\desktop\cengine\framebuffer.c
+	"include/FrameBuffer.h"
+	"string.h"
+
+1523508657 c:\users\bryce\desktop\cengine\include\framebuffer.h
+	"defs.h"
+
+1523508656 source:c:\users\bryce\desktop\cengine\gameobject.c
+	"include/GameObject.h"
+	"include/Ncurses.h"
+
+1523508657 c:\users\bryce\desktop\cengine\include\gameobject.h
+	"defs.h"
+	"Vector2.h"
+	"Vertex.h"
+
+1523508657 c:\users\bryce\desktop\cengine\include\vector2.h
+	"defs.h"
+	<math.h>
+	"Vector3.h"
+
+1523508657 c:\users\bryce\desktop\cengine\include\vector3.h
+	"defs.h"
+	<math.h>
+
+1523508657 c:\users\bryce\desktop\cengine\include\vertex.h
+	"Vector2.h"
+	"Vector3.h"
+	"defs.h"
+
+1523508657 c:\users\bryce\desktop\cengine\include\ncurses.h
+	"defs.h"
+	<string.h>
+	"GameObject.h"
+	"Vector3.h"
+	"Vector2.h"
+	"Vector4.h"
+	"Matrix44.h"
+	"Camera.h"
+	"FrameBuffer.h"
+	"Color.h"
+	"BMPLoader.h"
+
+1523508657 c:\users\bryce\desktop\cengine\include\vector4.h
+	"defs.h"
+
+1523508657 c:\users\bryce\desktop\cengine\include\matrix44.h
+	"defs.h"
+	"Vector4.h"
+	"Vector3.h"
+	"Vector2.h"
+
+1523512985 c:\users\bryce\desktop\cengine\include\camera.h
+	"defs.h"
+	"Vector3.h"
+	"Vector2.h"
+	"Matrix22.h"
+	"Matrix44.h"
+
+1523508657 c:\users\bryce\desktop\cengine\include\matrix22.h
+	"Vector2.h"
+
+1523508656 source:c:\users\bryce\desktop\cengine\genericset.c
+	"include/GenericSet.h"
+	"include/defs.h"
+
+1523508656 source:c:\users\bryce\desktop\cengine\matrix22.c
+	"include/Matrix22.h"
+
+1523508656 source:c:\users\bryce\desktop\cengine\matrix44.c
+	"include/Matrix44.h"
+
+1523508656 source:c:\users\bryce\desktop\cengine\ncursesbase.c
+	"include/Ncurses.h"
+	"include/GameObject.h"
+	"include/Texture.h"
+
+1523508657 c:\users\bryce\desktop\cengine\include\texture.h
+	"defs.h"
+	"BMPLoader.h"
+	"Ncurses.h"
+
+1523508657 source:c:\users\bryce\desktop\cengine\objloader.c
+	"include/objLoader.h"
+	"string.h"
+
+1523508657 c:\users\bryce\desktop\cengine\include\objloader.h
+	<stdlib.h>
+	<stdio.h>
+
+1523508656 source:c:\users\bryce\desktop\cengine\quaternion.c
+	"include/Quaternion.h"
+
+1523508657 c:\users\bryce\desktop\cengine\include\quaternion.h
+	"defs.h"
+	"Matrix44.h"
+	"Vector3.h"
+	"Vector4.h"
+
+1523508656 source:c:\users\bryce\desktop\cengine\texture.c
+	"include/Texture.h"
+	<string.h>
+	<math.h>
+	<stdio.h>
+
+1523508656 source:c:\users\bryce\desktop\cengine\vector2.c
+	"include/Vector2.h"
+
+1523508656 source:c:\users\bryce\desktop\cengine\vector3.c
+	"include/Vector3.h"
+
+1523508656 source:c:\users\bryce\desktop\cengine\vector4.c
+	"include/Vector4.h"
+
+1523508656 source:c:\users\bryce\desktop\cengine\vertex.c
+	"include/Vertex.h"
+	"include/objLoader.h"
+
+1523512500 source:c:\users\bryce\desktop\cengine\main.c
+	"include/defs.h"
+	"include/Vector2.h"
+	"include/GameObject.h"
+	"include/Ncurses.h"
+	"include/GenericSet.h"
+	"include/Vertex.h"
+	"include/objLoader.h"
+	"include/Matrix22.h"
+	"include/Matrix44.h"
+	"include/Vector3.h"
+	"include/BMPLoader.h"
+	"include/Color.h"
+	"include/Texture.h"
+
+1523513000 source:c:\users\bryce\desktop\cengine\camera.c
+	"include/Camera.h"
+
+1525986946 source:c:\users\bryce\desktop\cgameengine\cgameengine\bmploader.c
+	"include/BMPLoader.h"
+	<stdio.h>
+	"include/defs.h"
+
+1525986947 c:\users\bryce\desktop\cgameengine\cgameengine\include\bmploader.h
+	"defs.h"
+	"Color.h"
+
+1525986947 c:\users\bryce\desktop\cgameengine\cgameengine\include\defs.h
+	<stdint.h>
+	<stdlib.h>
+	<time.h>
+	<stdarg.h>
+	<stdio.h>
+	<windows.h>
+	<curses.h>
+	<time.h>
+	<pthread.h>
+	<ncurses.h>
+
+1525986947 c:\users\bryce\desktop\cgameengine\cgameengine\include\color.h
+	"defs.h"
+
+1525986946 source:c:\users\bryce\desktop\cgameengine\cgameengine\camera.c
+	"include/Camera.h"
+
+1525986947 c:\users\bryce\desktop\cgameengine\cgameengine\include\camera.h
+	"defs.h"
+	"Vector3.h"
+	"Vector2.h"
+	"Matrix22.h"
+	"Matrix44.h"
+
+1525986947 c:\users\bryce\desktop\cgameengine\cgameengine\include\vector3.h
+	"defs.h"
+	<math.h>
+
+1525986947 c:\users\bryce\desktop\cgameengine\cgameengine\include\vector2.h
+	"defs.h"
+	<math.h>
+
+1525986947 c:\users\bryce\desktop\cgameengine\cgameengine\include\matrix22.h
+	"Vector2.h"
+
+1525986947 c:\users\bryce\desktop\cgameengine\cgameengine\include\matrix44.h
+	"defs.h"
+	"Vector4.h"
+	"Vector3.h"
+	"Vector2.h"
+
+1525986947 c:\users\bryce\desktop\cgameengine\cgameengine\include\vector4.h
+	"defs.h"
+	"Vector3.h"
+
+1525986946 source:c:\users\bryce\desktop\cgameengine\cgameengine\color.c
+	"include/Color.h"
+	<stdio.h>
+	<string.h>
+
+1525986946 source:c:\users\bryce\desktop\cgameengine\cgameengine\defs.c
+	"include/defs.h"
+	"include/GenericSet.h"
+
+1525986947 c:\users\bryce\desktop\cgameengine\cgameengine\include\genericset.h
+	"defs.h"
+	<string.h>
+
+1525986946 source:c:\users\bryce\desktop\cgameengine\cgameengine\framebuffer.c
+	"include/FrameBuffer.h"
+	"string.h"
+
+1525986947 c:\users\bryce\desktop\cgameengine\cgameengine\include\framebuffer.h
+	"defs.h"
+
+1525986946 source:c:\users\bryce\desktop\cgameengine\cgameengine\gameobject.c
+	"include/GameObject.h"
+	"include/Ncurses.h"
+
+1525986947 c:\users\bryce\desktop\cgameengine\cgameengine\include\gameobject.h
+	"defs.h"
+	"Vector2.h"
+	"Vertex.h"
+
+1525986947 c:\users\bryce\desktop\cgameengine\cgameengine\include\vertex.h
+	"Vector2.h"
+	"Vector3.h"
+	"defs.h"
+
+1525986947 c:\users\bryce\desktop\cgameengine\cgameengine\include\ncurses.h
+	"defs.h"
+	<string.h>
+	"GameObject.h"
+	"Vector3.h"
+	"Vector2.h"
+	"Vector4.h"
+	"Matrix44.h"
+	"Camera.h"
+	"FrameBuffer.h"
+	"Color.h"
+	"BMPLoader.h"
+	"Panel.h"
+
+1525986946 source:c:\users\bryce\desktop\cgameengine\cgameengine\genericset.c
+	"include/GenericSet.h"
+	"include/defs.h"
+
+1525986946 source:c:\users\bryce\desktop\cgameengine\cgameengine\main.c
+	"include/defs.h"
+	"include/Vector2.h"
+	"include/GameObject.h"
+	"include/Ncurses.h"
+	"include/GenericSet.h"
+	"include/Vertex.h"
+	"include/Matrix22.h"
+	"include/Matrix44.h"
+	"include/Vector3.h"
+	"include/BMPLoader.h"
+	"include/Color.h"
+	"include/Texture.h"
+	"include/Time.h"
+	"include/SplashScreen.h"
+	"include/Game.h"
+
+1525986947 c:\users\bryce\desktop\cgameengine\cgameengine\include\objloader.h
+	<stdlib.h>
+	<stdio.h>
+
+1525986947 c:\users\bryce\desktop\cgameengine\cgameengine\include\texture.h
+	"defs.h"
+	"BMPLoader.h"
+	"Ncurses.h"
+
+1525986946 source:c:\users\bryce\desktop\cgameengine\cgameengine\matrix22.c
+	"include/Matrix22.h"
+
+1525986946 source:c:\users\bryce\desktop\cgameengine\cgameengine\matrix44.c
+	"include/Matrix44.h"
+
+1525986946 source:c:\users\bryce\desktop\cgameengine\cgameengine\ncursesbase.c
+	"include/Ncurses.h"
+	"include/GameObject.h"
+	"include/Texture.h"
+
+1525986946 source:c:\users\bryce\desktop\cgameengine\cgameengine\ncursesrenderer.c
+	"include/Ncurses.h"
+	"include/GameObject.h"
+	"include/defs.h"
+	"include/Matrix22.h"
+	"include/Quaternion.h"
+	"include/Time.h"
+	<math.h>
+	"include/Texture.h"
+	"include/Panel.h"
+
+1525986947 c:\users\bryce\desktop\cgameengine\cgameengine\include\quaternion.h
+	"defs.h"
+	"Matrix44.h"
+	"Vector3.h"
+	"Vector4.h"
+
+1525986946 source:c:\users\bryce\desktop\cgameengine\cgameengine\objloader.c
+	"include/OBJLoader.h"
+	"string.h"
+
+1525986946 source:c:\users\bryce\desktop\cgameengine\cgameengine\quaternion.c
+	"include/Quaternion.h"
+
+1525986946 source:c:\users\bryce\desktop\cgameengine\cgameengine\texture.c
+	"include/Texture.h"
+	<string.h>
+	<math.h>
+	<stdio.h>
+
+1525986946 source:c:\users\bryce\desktop\cgameengine\cgameengine\vector2.c
+	"include/Vector2.h"
+
+1525986946 source:c:\users\bryce\desktop\cgameengine\cgameengine\vector3.c
+	"include/Vector3.h"
+
+1525986946 source:c:\users\bryce\desktop\cgameengine\cgameengine\vector4.c
+	"include/Vector4.h"
+
+1525986946 source:c:\users\bryce\desktop\cgameengine\cgameengine\vertex.c
+	"include/Vertex.h"
+	"include/OBJLoader.h"
+
+1523511060 c:\users\bryce\desktop\pdcurs34\\curses.h
+	<stdarg.h>
+	<stddef.h>
+	<stdio.h>
+	<wchar.h>
+
+1525986947 c:\users\bryce\desktop\cgameengine\cgameengine\include\time.h
+	"defs.h"
+
+1525986946 source:c:\users\bryce\desktop\cgameengine\cgameengine\time.c
+	"include/Time.h"
+
+1525986947 c:\users\bryce\desktop\cgameengine\cgameengine\include\panel.h
+	"defs.h"
+
+1525986947 c:\users\bryce\desktop\cgameengine\cgameengine\include\splashscreen.h
+	"Ncurses.h"
+
+1525986947 c:\users\bryce\desktop\cgameengine\cgameengine\include\game.h
+	"Ncurses.h"
+
+1525986946 source:c:\users\bryce\desktop\cgameengine\cgameengine\panel.c
+	"include/Panel.h"
+	"include/Ncurses.h"
+
+1525986946 source:c:\users\bryce\desktop\cgameengine\cgameengine\splashscreen.c
+	"include/SplashScreen.h"
+	"include/defs.h"
+	"include/Vector2.h"
+	"include/GameObject.h"
+	"include/GenericSet.h"
+	"include/Vertex.h"
+	"include/Matrix22.h"
+	"include/Matrix44.h"
+	"include/Vector3.h"
+	"include/BMPLoader.h"
+	"include/Color.h"
+	"include/Texture.h"
+	"include/Time.h"
+
+1525986946 source:c:\users\bryce\desktop\cgameengine\cgameengine\vertexbuffer.c
+	"include/VertexBuffer.h"
+
+1525986947 c:\users\bryce\desktop\cgameengine\cgameengine\include\vertexbuffer.h
+
+1525999675 source:c:\users\bryce\desktop\cgameengine\cgameengine\game.c
+	"include/Game.h"
+	"include/defs.h"
+	"include/Vector2.h"
+	"include/GameObject.h"
+	"include/GenericSet.h"
+	"include/Vertex.h"
+	"include/Matrix22.h"
+	"include/Matrix44.h"
+	"include/Vector3.h"
+	"include/BMPLoader.h"
+	"include/Color.h"
+	"include/Texture.h"
+	"include/Time.h"
+	"include/Panel.h"
+
